@@ -64,4 +64,13 @@
             </plugin>
 		</plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.service.component</artifactId>
+            <version>1.5.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>

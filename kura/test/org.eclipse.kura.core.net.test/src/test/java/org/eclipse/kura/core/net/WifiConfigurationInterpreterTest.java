@@ -21,11 +21,7 @@ import java.util.List;
 
 import org.eclipse.kura.KuraException;
 import org.eclipse.kura.configuration.Password;
-import org.eclipse.kura.core.testutil.TestUtil;
 import org.eclipse.kura.net.NetConfig;
-import org.eclipse.kura.net.NetConfigIP4;
-import org.eclipse.kura.net.NetConfigIP6;
-import org.eclipse.kura.net.NetInterfaceStatus;
 import org.eclipse.kura.net.wifi.WifiBgscan;
 import org.eclipse.kura.net.wifi.WifiBgscanModule;
 import org.eclipse.kura.net.wifi.WifiCiphers;
@@ -35,7 +31,6 @@ import org.eclipse.kura.net.wifi.WifiInterfaceAddressConfig;
 import org.eclipse.kura.net.wifi.WifiMode;
 import org.eclipse.kura.net.wifi.WifiRadioMode;
 import org.eclipse.kura.net.wifi.WifiSecurity;
-import org.junit.Ignore;
 import org.junit.Test;
 
 

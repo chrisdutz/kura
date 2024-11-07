@@ -64,8 +64,15 @@
             </plugin>
         </plugins>
     </build>
+
     <dependencies>
-    	<dependency>
+        <dependency>
+            <groupId>org.eclipse.kura</groupId>
+            <artifactId>org.eclipse.kura.api</artifactId>
+            <version>3.0.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
     		<groupId>com.github.docker-java</groupId>
     		<artifactId>docker-java-api</artifactId>
     		<version>3.2.12</version>

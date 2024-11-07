@@ -30,7 +30,6 @@ import org.eclipse.kura.core.net.modem.ModemInterfaceAddressConfigImpl;
 import org.eclipse.kura.core.net.modem.ModemInterfaceConfigImpl;
 import org.eclipse.kura.core.net.util.NetworkUtil;
 import org.eclipse.kura.core.testutil.TestUtil;
-import org.eclipse.kura.core.util.NetUtil;
 import org.eclipse.kura.net.IP4Address;
 import org.eclipse.kura.net.IP6Address;
 import org.eclipse.kura.net.IPAddress;
@@ -66,13 +65,9 @@ import org.eclipse.kura.net.wifi.WifiRadioMode;
 import org.eclipse.kura.net.wifi.WifiSecurity;
 import org.eclipse.kura.usb.UsbBlockDevice;
 import org.junit.FixMethodOrder;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 import org.mockito.Mockito;
-import org.osgi.framework.BundleContext;
-import org.osgi.framework.FrameworkUtil;
-import org.osgi.framework.ServiceReference;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class NetworkConfigurationTest {

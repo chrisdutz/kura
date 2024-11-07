@@ -35,7 +35,6 @@ import org.eclipse.kura.core.linux.executor.LinuxSignal;
 import org.eclipse.kura.executor.Command;
 import org.eclipse.kura.executor.CommandStatus;
 import org.junit.Test;
-import org.mockito.ArgumentMatcher;
 
 public class ExecutorUtilExecutionTest {
 

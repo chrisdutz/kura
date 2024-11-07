@@ -31,4 +31,17 @@
 		<kura.basedir>${project.basedir}/..</kura.basedir>
 		<sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../test/*/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.kura</groupId>
+			<artifactId>org.eclipse.kura.api</artifactId>
+			<version>3.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.service.component</artifactId>
+			<version>1.5.1</version>
+		</dependency>
+	</dependencies>
 </project>

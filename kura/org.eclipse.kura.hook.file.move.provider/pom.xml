@@ -29,4 +29,11 @@
 		<kura.basedir>${project.basedir}/..</kura.basedir>
 	</properties>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.kura</groupId>
+			<artifactId>org.eclipse.kura.api</artifactId>
+			<version>3.0.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>

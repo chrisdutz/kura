@@ -26,7 +26,6 @@ import org.eclipse.kura.KuraException;
 import org.eclipse.kura.cloudconnection.message.KuraMessage;
 import org.eclipse.kura.core.inventory.InventoryHandlerV1;
 import org.eclipse.kura.internal.rest.inventory.InventoryRestService;
-import org.eclipse.kura.message.KuraPayload;
 import org.eclipse.kura.message.KuraResponsePayload;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
