@@ -24,7 +24,7 @@
     </parent>
 
     <artifactId>org.eclipse.kura.rest.wire.provider.test</artifactId>
-    <packaging>eclipse-test-plugin</packaging>
+    <packaging>jar</packaging>
 
     <properties>
         <kura.basedir>${project.basedir}/../..</kura.basedir>
@@ -67,4 +67,32 @@
             </plugin>
 		</plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.eclipse.kura</groupId>
+            <artifactId>org.eclipse.kura.api</artifactId>
+            <version>3.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.kura</groupId>
+            <artifactId>org.eclipse.kura.core.testutil</artifactId>
+            <version>6.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.kura</groupId>
+            <artifactId>org.eclipse.kura.util.wire.test</artifactId>
+            <version>6.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.tonivade</groupId>
+            <artifactId>minimal-json</artifactId>
+            <version>0.11.0</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+        </dependency>
+    </dependencies>
 </project>

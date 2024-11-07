@@ -29,7 +29,7 @@
 	</properties>
 
 	<artifactId>org.eclipse.kura.rest.inventory.provider</artifactId>
-	<packaging>eclipse-plugin</packaging>
+	<packaging>jar</packaging>
 	<version>2.0.0-SNAPSHOT</version>
 
 </project>

@@ -24,7 +24,7 @@ Eurotech
 </parent>
 
 <artifactId>org.eclipse.kura.deployment.agent.test</artifactId>
-<packaging>eclipse-test-plugin</packaging>
+<packaging>jar</packaging>
 
 <properties>
     <kura.basedir>${project.basedir}/../..</kura.basedir>

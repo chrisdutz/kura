@@ -30,6 +30,6 @@
 	</properties>
 
 	<artifactId>org.eclipse.kura.rest.network.configuration.provider</artifactId>
-	<packaging>eclipse-plugin</packaging>
+	<packaging>jar</packaging>
 	<version>2.0.0-SNAPSHOT</version>
 </project>

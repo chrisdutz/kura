@@ -24,7 +24,7 @@
     </parent>
 
     <artifactId>org.eclipse.kura.rest.packages.provider.test</artifactId>
-    <packaging>eclipse-test-plugin</packaging>
+    <packaging>jar</packaging>
 
     <properties>
         <kura.basedir>${project.basedir}/../..</kura.basedir>
@@ -734,4 +734,22 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.14.2</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -30,6 +30,6 @@
 
 	<artifactId>org.eclipse.kura.cloud.base.provider</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>eclipse-plugin</packaging>
+	<packaging>jar</packaging>
 	
 </project>

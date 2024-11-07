@@ -24,7 +24,7 @@
     </parent>
 
     <artifactId>org.eclipse.kura.rest.system.provider.test</artifactId>
-    <packaging>eclipse-test-plugin</packaging>
+    <packaging>jar</packaging>
 
     <properties>
         <kura.basedir>${project.basedir}/../..</kura.basedir>
@@ -68,4 +68,17 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.eclipse.kura</groupId>
+            <artifactId>org.eclipse.kura.api</artifactId>
+            <version>3.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.14.2</version>
+        </dependency>
+    </dependencies>
 </project>

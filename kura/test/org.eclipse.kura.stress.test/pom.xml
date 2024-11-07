@@ -24,7 +24,7 @@
 	</parent>
 
 	<artifactId>org.eclipse.kura.stress.test</artifactId>
-	<packaging>eclipse-test-plugin</packaging>
+	<packaging>jar</packaging>
 	
 	<properties>
 		<kura.basedir>${project.basedir}/../..</kura.basedir>
@@ -64,4 +64,25 @@
             </plugin>
 		</plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.eclipse.kura</groupId>
+            <artifactId>org.eclipse.kura.core.testutil</artifactId>
+            <version>6.0.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.kura</groupId>
+            <artifactId>org.eclipse.kura.stress</artifactId>
+            <version>2.0.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.service.component</artifactId>
+            <version>1.5.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
