@@ -33,4 +33,12 @@
   <modules>
     <module>org.eclipse.kura.util.wire.test</module>
   </modules>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.service.cm</artifactId>
+      <version>1.6.1</version>
+    </dependency>
+  </dependencies>
 </project>
